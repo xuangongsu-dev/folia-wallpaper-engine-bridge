@@ -1,0 +1,15 @@
+{
+  "folium": 1,
+  "id": "wallpaper-engine-live",
+  "name": "Wallpaper Engine 实时背景",
+  "version": "1.3.0",
+  "author": "YG",
+  "description": "在 Folia 内浏览 Wallpaper Engine 壁纸库，手动选择或跟随桌面；可选同步到桌面。优先原始媒体；场景只显示可用资源，网页仅预览。",
+  "main": "main.cjs",
+  "client": "client.mjs",
+  "permissions": [
+    "stageLayers",
+    "filesystem.data"
+  ],
+  "folia": ">=0.7.0 <0.8.0"
+}
